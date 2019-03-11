@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 export default class Counter extends Component {
     constructor(props) {
-        super(props);
+        super(props)
 
         this.state = {
             count: props.count
@@ -14,13 +14,13 @@ export default class Counter extends Component {
         this.setState({
             count: ++this.state.count
         })
-    };
+    }
 
     handleDown = () => {
         this.setState({
             count: --this.state.count
         })
-    };
+    }
 
     render() {
         return (
@@ -35,8 +35,8 @@ export default class Counter extends Component {
 
 Counter.defaultProps = {
     count: 0
-};
+}
 
 Counter.propTypes = {
     count: PropTypes.number
-};
+}

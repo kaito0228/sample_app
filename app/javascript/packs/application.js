@@ -13,6 +13,6 @@ var componentRequireContext = require.context("components", true)
 var ReactRailsUJS = require("react_ujs")
 ReactRailsUJS.useContext(componentRequireContext)
 
-import Counter from '../counter'
+import Counter from '../counter/components'
 
 window.Counter = Counter
