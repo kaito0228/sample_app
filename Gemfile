@@ -20,7 +20,7 @@ gem 'will_paginate', '3.1.7'
 
 group :development, :test do
   gem 'byebug', '9.0.6', platform: :mri
-  gem 'sqlite3', '1.3.13'
+  gem 'sqlite3', '1.4.0'
 end
 
 group :development do
