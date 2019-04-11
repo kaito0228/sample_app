@@ -14,7 +14,7 @@ gem 'rails', '5.2.3'
 gem 'react-rails'
 gem 'sass-rails', '5.0.7'
 gem 'turbolinks', '5.2.0'
-gem 'uglifier', '3.2.0'
+gem 'uglifier', '4.1.20'
 gem 'webpacker', '~> 3.0'
 gem 'will_paginate', '3.1.7'
 
