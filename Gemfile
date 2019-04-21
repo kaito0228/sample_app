@@ -40,7 +40,7 @@ end
 
 group :production do
   gem 'fog', '2.1.0'
-  gem 'pg', '0.20.0'
+  gem 'pg', '1.1.4'
 end
 
 # Windows環境ではtzinfo-dataというgemを含める必要があります
