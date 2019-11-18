@@ -15,7 +15,7 @@ gem 'react-rails'
 gem 'sass-rails', '5.0.7'
 gem 'turbolinks', '5.2.0'
 gem 'uglifier', '4.1.20'
-gem 'webpacker', '~> 4.0'
+gem 'webpacker', '~> 4.2'
 gem 'will_paginate', '3.1.7'
 
 group :development, :test do
