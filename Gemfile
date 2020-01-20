@@ -19,7 +19,7 @@ gem 'webpacker', '~> 4.0'
 gem 'will_paginate', '3.1.7'
 
 group :development, :test do
-  gem 'byebug', '9.0.6', platform: :mri
+  gem 'byebug', '11.1.0', platform: :mri
   gem 'sqlite3', '1.4.1'
 end
 
